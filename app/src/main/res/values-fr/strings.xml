@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="favorites">Favoris</string>
+    <string name="confirmation">Confirmation</string>
+    <string name="confirm_delete_all">Êtes-vous sûr de vouloir tout supprimer ?</string>
+    <string name="yes">Oui</string>
+    <string name="no">Non</string>
+    <string name="confirm_delete_item">Êtes-vous sûr de vouloir supprimer cette note ?</string>
+    <string name="error">Erreur</string>
+    <string name="note_deleted">Note supprimée</string>
+    <string name="undo">Annuler</string>
+    <string name="notes">Notes</string>
+    <string name="share_with">Partager avec :</string>
+    <string name="empty_field">Champ vide</string>
+    <string name="title_exist">Ce titre exist déjà</string>
+    <string name="content_exist">Ce contenu exist déjà</string>
+    <string name="date_format">d/M/yy</string>
+    <string name="no_title">Aucun titre</string>
+    <string name="no_content">Pas de contenu</string>
+    <string name="hint_title">Titre...</string>
+    <string name="hint_note">Note...</string>
+    <string name="done">Ok</string>
+    <string name="app_name">Notes</string>
+</resources>

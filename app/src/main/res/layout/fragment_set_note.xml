@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#fff">
+
+    <ImageView
+        android:id="@+id/iv_main"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_margin="8dp"
+        app:srcCompat="@drawable/ic_back" />
+
+    <Button
+        android:id="@+id/btn_add"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentTop="true"
+        android:layout_margin="6dp"
+        android:background="#00ffffff"
+        android:text="@string/done"
+        android:textAllCaps="true"
+        android:textColor="@color/colorStyle"
+        android:textSize="16dp" />
+
+    <ImageView
+        android:id="@+id/iv_share"
+        android:layout_width="25dp"
+        android:layout_height="25dp"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="17dp"
+        android:layout_toLeftOf="@+id/btn_add"
+        app:srcCompat="@drawable/ic_share"
+        android:textColor="@color/colorStyle"
+        android:textSize="16dp" />
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/btn_add">
+
+        <EditText
+            android:id="@+id/et_title"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#fff"
+            android:hint="@string/hint_title"
+            android:inputType="text|textAutoComplete|textAutoCorrect"
+            android:maxLength="25"
+            android:maxLines="50"
+            android:paddingLeft="10dp"
+            android:paddingRight="10dp"
+            android:singleLine="true"
+            android:textColor="#000"
+            android:textSize="24dp" />
+
+        <View
+            android:id="@+id/view_separator"
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:layout_below="@+id/et_title"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="6dp"
+            android:background="#d6d6d6" />
+
+        <EditText
+            android:id="@+id/et_content"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_below="@+id/view_separator"
+            android:autoLink="all"
+            android:background="#fff"
+            android:focusable="true"
+            android:gravity="top"
+            android:hint="@string/hint_note"
+            android:inputType="textAutoCorrect|textAutoComplete|text|textMultiLine"
+            android:linksClickable="true"
+            android:overScrollMode="always"
+            android:padding="10dp"
+            android:scrollbarAlwaysDrawVerticalTrack="true"
+            android:scrollbarStyle="insideInset"
+            android:scrollbars="vertical"
+            android:textColorLink="@color/colorAccent" >
+            <requestFocus />
+        </EditText>
+    </RelativeLayout>
+
+</RelativeLayout>
