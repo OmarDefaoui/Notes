@@ -1,8 +1,10 @@
 # Notes
 A simple note application that can add, edit, delete and share notes from SQLite database.
 
-![alt text](https://lh3.googleusercontent.com/cwG2wOdRupAxuAPJOGSYmZS23hgjgN1SegxNKGBIRUhnnLKMfY0DvV8VUM4hi0knlQ)
-![alt text](https://lh3.googleusercontent.com/cwG2wOdRupAxuAPJOGSYmZS23hgjgN1SegxNKGBIRUhnnLKMfY0DvV8VUM4hi0knlQ)
+![alt text](https://lh3.googleusercontent.com/HYv_HKB0cTSZbdc7pRwGCAT_Xf1vvRcLDzPh1PDvu0-FTBoTCHEHMmMNPNHGVO23dw)
+![alt text](https://lh3.googleusercontent.com/cN1c27HNbet-oGdufDSJUowF_jLTTipk4qCedgMUGm_xgQzjjSUrJ0Xc2KJ1s8D2QL7l)
+![alt text](https://lh3.googleusercontent.com/y2ovn9N6dB_GIWafllPPOjl1AwjUjpSw-4dz61i4rEEYbPGTy_EknOPaIIptVCgH8afO)
+![alt text](https://lh3.googleusercontent.com/E9NvuIv2RY_Fo_gQwj2iY3OhvPh6AWBFmCVc1sK2PVB2WHf74NZBKgO--UW5gHSMeA)
 
 <a href="https://play.google.com/store/apps/details?id=com.nordef.notes" target="_blank">
 <img src="https://play.google.com/intl/en_us/badges/images/generic/en-play-badge.png" alt="Get it on Google Play" height="80"/></a>
