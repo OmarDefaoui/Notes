@@ -8,4 +8,4 @@ A simple note application that can add, edit, delete and share notes from SQLite
 ![alt text](https://lh3.googleusercontent.com/cN1c27HNbet-oGdufDSJUowF_jLTTipk4qCedgMUGm_xgQzjjSUrJ0Xc2KJ1s8D2QL7l)
 ![alt text](https://lh3.googleusercontent.com/y2ovn9N6dB_GIWafllPPOjl1AwjUjpSw-4dz61i4rEEYbPGTy_EknOPaIIptVCgH8afO)
 
-To enable Firebase Crashlytics, change the app package name, then create a new project on your firebase console, after that paste the google-json file in the project, and go to build.gradle and app/build.gradle and enable commented code by removing // from it.
+To enable Firebase Crashlytics, change the app package name, then create a new project on your firebase console, after that paste the google-services.json file in the project, and go to build.gradle and app/build.gradle and enable commented code by removing // from it.
